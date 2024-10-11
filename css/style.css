@@ -1,18 +1,27 @@
+.section-reviews {
+    margin-top: 40px;
+    padding: 0px 20px;
+    width: 360px;
+    height: 464px;
+}
 
-
-.section-reviews{margin-top: 40px;}
-.title-reviews{font-weight: 400;
+.title-reviews {
+    font-weight: 400;
     font-size: 52px;
-
-    /* line-height: 64px; */
+    text-align: center;
     line-height: 1.23077;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #292929;}
+    color: #292929;
+}
+
 .swiper-container {
-padding: 0px 20px;
-    width: 360px;
-    height: 464px;
+    width: 320px;
+    height: 360px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
 }
 
 .swiper-slide {
@@ -20,21 +29,53 @@ padding: 0px 20px;
     align-items: center;
     justify-content: center;
     font-size: 18px;
-    /* Розмір тексту відгуку */
-    padding: 20px;
+    background: #e4e5e6;
+    border-radius: 16px;
+    padding: 32px;
 }
 
+.swiper-wrapper {
+    margin-bottom: 24px;
+    border-radius: 16px;
+    padding: 32px;
+    width: 320px;
+    height: 296px; /* Висота для видимості вмісту */
+}
+
+.box-button {
+    margin-top: 24px;
+    gap: 16px; /* Відстань між кнопками */
+    position: relative; /* Відносне позиціонування */
+    width: 104px;
+    height: 40px;
+}
+
+
+
+
+.button-reviews {
+    border: 1px solid #292929;
+    border-radius: 8px;
+    padding: 12px;
+    width: 48px;   /* Ширина кнопки */
+    height: 40px;  /* Висота кнопки */
+   
+    stroke:"#292929"
+    /* cursor:pointer; Зміна курсора на pointer */
+}
+
+
+
+
 .swiper-button-disabled {
-    opacity: 0.5;
-    /* Задизейблені кнопки */
-    pointer-events: none;
-    /* Заборонити взаємодію */
+    opacity: 0.5; /* Задизейблені кнопки */
+    pointer-events: none; /* Заборонити взаємодію */
 }
 
 #error-message {
-    color: red;
-    /* Колір для повідомлення про помилку */
+    color: red; /* Колір для повідомлення про помилку */
     text-align: center;
 }
-/* @media screen and { max-width: 300px; */
-    
+
+@media screen and (min-width: 360px) {
+    }
